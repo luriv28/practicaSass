@@ -1,0 +1,85 @@
+// VARIABLES
+
+$bgcolor: rgb(85, 52, 151);
+$pfont: cursive;
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.header {
+  h1 {
+    color: rgb(44, 2, 160);
+    text-align: center;
+    padding: 2rem;
+    background-color: whitesmoke;
+  }
+}
+.productos {
+  width: auto;
+  h2 {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    background-color: mediumpurple;
+    padding: 2rem;
+  }
+  p {
+    font-family: $pfont;
+    color: black;
+    background-color: $bgcolor;
+    padding: 1rem;
+  }
+}
+
+.novedades {
+  width: auto;
+  h2 {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    background-color: mediumpurple;
+    padding: 2rem;
+  }
+  p {
+    font-family: $pfont;
+    color: black;
+    background-color: $bgcolor;
+    padding: 1rem;
+  }
+}
+
+.nosotros {
+  width: auto;
+  h2 {
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    background-color: mediumpurple;
+    padding: 2rem;
+  }
+  p {
+    font-family: $pfont;
+    color: black;
+    background-color: $bgcolor;
+    padding: 1rem;
+  }
+}
+.footer {
+  h2 {
+    color: rgb(44, 2, 160);
+    text-align: center;
+    padding: 1rem;
+    background-color: whitesmoke;
+  }
+  p {
+    font-family: $pfont;
+    color: black;
+    background-color: whitesmoke;
+    padding: 1rem;
+  }
+}
